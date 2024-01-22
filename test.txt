@@ -1,4 +1,8 @@
 test file
 some text..
 tree
+<<<<<<< HEAD
 four
+=======
+four
+>>>>>>> a924a906b8cd485fa82d50ab695ea631ee6de5ad
