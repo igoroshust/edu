@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 
 from time import sleep
 
-driver = webdriver.Chrome("C:/Users/Igor/github/Skillfactory/edu/chromedriver")
+driver = webdriver.Chrome()
 driver.get("https://google.com")
 driver.find_element(By.XPATH, "//textarea[@title=\"Поиск\"]").send_keys('Skillfactory' + Keys.RETURN)
 sleep(2)
