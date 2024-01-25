@@ -8,9 +8,11 @@ from time import sleep
 
 driver = webdriver.Chrome()
 driver.get("https://google.com")
-driver.find_element(By.XPATH, "//textarea[@title=\"Поиск\"]").send_keys('Skillfactory' + Keys.RETURN)
-sleep(2)
-driver.save_screenshot('sf.png')
+# driver.get("http://130.193.37.179/app/pets")
+# (driver.find_elements(By.XPATH, "//*[@id=\"image\"]/img"))[0].click()
+driver.find_elements(By.XPATH, "//textarea[@title=\"Поиск\"]").send_keys('Skillfactory' + Keys.RETURN) # относится к google
+sleep(2) относится к google
+driver.save_screenshot('sf.png') # относится к google
 driver.quit()
 
 
