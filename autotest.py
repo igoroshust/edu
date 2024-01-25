@@ -15,12 +15,6 @@ sleep(2) # относится к google
 driver.save_screenshot('sf.png') # относится к google
 driver.quit()
 
-sleep(3)
-print(4)
-print(5)
-print(6)
-a = [i**2 for i in range(10)]
-print(a)
 
 
 # //*[@id="APjFqb"]
